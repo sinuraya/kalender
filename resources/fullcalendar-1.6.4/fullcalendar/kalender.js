@@ -8,11 +8,11 @@
 
 function getWari(tgl) {
 	var tahunK = 2500;
-	var bulanK = 10;
+	var bulanK = 12;
 	var tanggalK = 1;
-	var tanggal = 8;
-	var bulan = 7;
-	var tahun = 2013;
+	var tanggal = 17;
+	var bulan = 10;
+	var tahun = 2012;
 	var tanggalAwal = new Date(tahun, bulan, tanggal);
 	var selisih = 0;
 	if (tgl > tanggalAwal) {

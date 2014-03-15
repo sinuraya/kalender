@@ -26,6 +26,13 @@ html .fc,
 	vertical-align: top;
 	}
 
+.fc th:first-child {
+	color: red;
+}
+
+.fc td:first-child {
+	color: red;
+}
 
 
 /* Header
@@ -396,10 +403,20 @@ table.fc-border-separate {
 	}
 	
 .fc-grid .fc-day-number {
-	float: right;
+	display: block;
+	text-align: center;
 	padding: 0 2px;
+	font-size: 36px;
 	}
-	
+
+.fc-day-karo {
+	color: blue;
+	font-weight: bolder;
+	padding: 0 0 0 2px;
+	text-align: center;
+	text-transform:capitalize;
+}
+
 .fc-grid .fc-other-month .fc-day-number {
 	opacity: 0.3;
 	filter: alpha(opacity=30); /* for IE */

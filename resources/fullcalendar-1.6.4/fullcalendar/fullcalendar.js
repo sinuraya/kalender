@@ -2383,7 +2383,7 @@ function BasicView(element, calendar, viewName) {
 			"<div>";
 
 		if (showNumbers) {
-			html += "<div class='fc-day-number'>" + date.getDate() + "</div><div style='display:block; color:blue;'>" + wari.wari[getWari(date)-1].gelar + "</div>";
+			html += "<div class='fc-day-number'>" + date.getDate() + "</div><div class='fc-day-karo'>" + wari.wari[getWari(date)-1].gelar + "</div>";
 		}
 
 		html +=
